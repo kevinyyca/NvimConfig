@@ -11,4 +11,17 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("chen.plugins")
+require("lazy").setup({
+  {import = "chen.plugins"},
+}, {
+  install = {
+    colorscheme = { "tokyonight-night" }, -- Use prefered colorscheme when auto installing plugins
+  },
+  checker = {
+    enabled = true,
+    notify = false,
+  },
+  change_detection = {
+    notify = false,
+  },
+})
