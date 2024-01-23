@@ -24,3 +24,6 @@ opt.cursorline = true -- Highlight the current line that the cursor is on
 opt.termguicolors = true -- Turn on termguicolors for some themes to work (Must use a true color terminal)
 opt.background = "dark" -- Colorschemes that support light and dark themes will default to dark
 opt.signcolumn = "yes" -- Show sign column so that text doesn't shift
+
+--- Backspace ---
+opt.backspace = "indent,eol,start" -- Allow backspace on indent, end of line or insert mode start position
