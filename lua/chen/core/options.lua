@@ -19,3 +19,8 @@ opt.smartcase = true -- If you include mixed case in your search, it assumes you
 
 --- Cursor line ---
 opt.cursorline = true -- Highlight the current line that the cursor is on
+
+--- Appearance ---
+opt.termguicolors = true -- Turn on termguicolors for some themes to work (Must use a true color terminal)
+opt.background = "dark" -- Colorschemes that support light and dark themes will default to dark
+opt.signcolumn = "yes" -- Show sign column so that text doesn't shift
