@@ -16,3 +16,6 @@ opt.wrap = false -- Disable line wrapping
 --- Search settings ---
 opt.ignorecase = true -- Ignore case when searching
 opt.smartcase = true -- If you include mixed case in your search, it assumes you want case-sensitive
+
+--- Cursor line ---
+opt.cursorline = true -- Highlight the current line that the cursor is on
