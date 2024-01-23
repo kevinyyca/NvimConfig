@@ -30,3 +30,7 @@ opt.backspace = "indent,eol,start" -- Allow backspace on indent, end of line or 
 
 --- Clipboard ---
 opt.clipboard:append("unnamedplus") -- Use system clipboard when copying or pasting
+
+--- Split windows ---
+opt.splitright = true -- Default to splitting to the right when creating a vertical split
+opt.splitbelow = true -- Default to splitting to the bottom when creating a horizontal split
