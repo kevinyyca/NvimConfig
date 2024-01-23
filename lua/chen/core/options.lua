@@ -12,3 +12,7 @@ opt.autoindent = true -- Copy indent from current line when starting new one (Au
 
 --- Line wrapping ---
 opt.wrap = false -- Disable line wrapping
+
+--- Search settings ---
+opt.ignorecase = true -- Ignore case when searching
+opt.smartcase = true -- If you include mixed case in your search, it assumes you want case-sensitive
