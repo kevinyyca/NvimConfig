@@ -34,3 +34,6 @@ opt.clipboard:append("unnamedplus") -- Use system clipboard when copying or past
 --- Split windows ---
 opt.splitright = true -- Default to splitting to the right when creating a vertical split
 opt.splitbelow = true -- Default to splitting to the bottom when creating a horizontal split
+
+--- Turn off swap file ---
+opt.swapfile = false -- Don't create a swap file when editting files
