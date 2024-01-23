@@ -18,3 +18,9 @@ keymap.set("n", "<leader>to", ":tabnew<CR>", { desc = "Open new tab" }) -- Open 
 keymap.set("n", "<leader>tx", ":tabclose<CR>", { desc = "Close current tab" }) -- Close current tab
 keymap.set("n", "<leader>tn", ":tabn<CR>", { desc = "Go to next tab" }) -- Go to next tab
 keymap.set("n", "<leader>tp", ":tabp<CR>", { desc = "Go to previous tab" }) -- Go to previous tab
+
+
+--- Other keymaps ---
+keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" }) -- Exit insert mode with jk
+keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" }) -- Clear search highlights
+keymap.set("n", "x", '"_x')
