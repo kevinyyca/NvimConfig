@@ -27,3 +27,6 @@ opt.signcolumn = "yes" -- Show sign column so that text doesn't shift
 
 --- Backspace ---
 opt.backspace = "indent,eol,start" -- Allow backspace on indent, end of line or insert mode start position
+
+--- Clipboard ---
+opt.clipboard:append("unnamedplus") -- Use system clipboard when copying or pasting
