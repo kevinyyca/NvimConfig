@@ -9,3 +9,6 @@ opt.tabstop = 2 -- Two spaces for tabs (prettier default)
 opt.shiftwidth = 2 -- Two spaces for indent width
 opt.expandtab = true -- Expand tabs to spaces
 opt.autoindent = true -- Copy indent from current line when starting new one (Automatically create tabs when creating new lines)
+
+--- Line wrapping ---
+opt.wrap = false -- Disable line wrapping
