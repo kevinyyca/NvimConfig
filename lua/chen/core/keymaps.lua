@@ -11,3 +11,10 @@ keymap.set("n", "<leader>sv", "<C-w>v", { desc = "Split window vertically" }) --
 keymap.set("n", "<leader>sh", "<C-w>s", { desc = "Split window horizontally" }) -- Split window horizontally
 keymap.set("n", "<leader>s=", "<C-w>=", { desc = "Make split windows equal size" }) -- Make split windows equal size
 keymap.set("n", "<leader>sx", ":close<CR>", { desc = "Close current split window" }) -- Close current split window
+
+--- Tab managment ---
+keymap.set("n", "<leader>te", ":tabedit ", { desc = "Edit specified file in new tab" }) -- Edit specified file in new tab
+keymap.set("n", "<leader>to", ":tabnew<CR>", { desc = "Open new tab" }) -- Open new tab
+keymap.set("n", "<leader>tx", ":tabclose<CR>", { desc = "Close current tab" }) -- Close current tab
+keymap.set("n", "<leader>tn", ":tabn<CR>", { desc = "Go to next tab" }) -- Go to next tab
+keymap.set("n", "<leader>tp", ":tabp<CR>", { desc = "Go to previous tab" }) -- Go to previous tab
