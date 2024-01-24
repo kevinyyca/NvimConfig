@@ -39,6 +39,9 @@ return {
     -- Change colors
     vim.cmd( [[ highlight NvimTreeIndentMarker guifg=#3FC5FF ]] ) -- Change the color of arrows in the tree to light blue
     vim.cmd( [[ highlight NvimTreeNormal guibg=#16161e00 ]] ) -- Make the background of the tree transparent
+
+    -- Change the width of the tree
+    vim.cmd( [[ NvimTreeResize 32 ]] )
     
     -- Set keymaps
     local keymap = vim.keymap
