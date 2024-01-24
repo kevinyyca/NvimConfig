@@ -22,6 +22,14 @@ return {
           },
         },
       },
+      -- Disable window_picker for Nvim-tree to work well wit hsplit windows
+      actions = {
+        open_file = {
+          window_picker = {
+            enable = false,
+          },
+        },
+      },
     })
   end,
 }
