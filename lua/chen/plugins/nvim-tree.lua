@@ -11,6 +11,17 @@ return {
     vim.g.loaded_netrwPlugin = 1
 
     -- Configure nvim-tree
-    nvimtree.setup()
+    nvimtree.setup({
+      renderer = {
+        icons = {
+          glyphs = {
+            folder = {
+                arrow_closed = "", -- Arrow when folder is closed
+                arrow_open = "", -- Arrow when folder is open)
+            },
+          },
+        },
+      },
+    })
   end,
 }
