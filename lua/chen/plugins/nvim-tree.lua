@@ -14,10 +14,6 @@ return {
     vim.g.loaded_netrw = 1
     vim.g.loaded_netrwPlugin = 1
 
-    -- Change colors
-    vim.cmd( [[ highlight NvimTreeIndentMarker guifg=#3FC5FF ]] ) -- Change the color of arrows in the tree to light blue
-    vim.cmd( [[ highlight NvimTreeNormal guibg=#16161e00 ]] ) -- Make the background of the tree transparent
-
     -- Configure nvim-tree
     nvimtree.setup({
       renderer = {
@@ -39,6 +35,10 @@ return {
         },
       },
     })
+
+    -- Change colors
+    vim.cmd( [[ highlight NvimTreeIndentMarker guifg=#3FC5FF ]] ) -- Change the color of arrows in the tree to light blue
+    vim.cmd( [[ highlight NvimTreeNormal guibg=#16161e00 ]] ) -- Make the background of the tree transparent
     
     -- Set keymaps
     local keymap = vim.keymap
