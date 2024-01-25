@@ -1,9 +1,8 @@
 return {
   "nvim-telescope/telescope.nvim",
-  branch = "0.1.x",
   dependencies = {
     "nvim-lua/plenary.nvim",
-    { "nvim-telescope/telescope-fzf-native.nvim", build = "make" },
+    { "nvim-telescope/telescope-fzf-native.nvim" },
     "nvim-tree/nvim-web-devicons",
   },
   keys = {
@@ -36,7 +35,7 @@ return {
 
     keymap.set("n", "<leader>ff", ":Telescope find_files<CR>", { desc = "Fuzzy find files in cwd" }) -- Fuzzy find files in cwd
     keymap.set("n", "<leader>fr", ":Telescope oldfiles<CR>", { desc = "Fuzzy find recent files" }) -- Fuzzy find recent files
-    keymap.set("n", "<leader>fs", ":Telescope live_grep<CR>", { desc = "Find string in cwd" }) -- Find string in cwd
-    keymap.set("n", "<leader>fc", ":Telescope grep_string<CR>", { desc = "Find string under cursor in cwd" }) -- Find string under cursor in cwd
+    keymap.set("n", "<leader>fs", ":Telescope live_grep<CR>", { desc = "Find string in cwd" }) -- Find string in cwd (Requires system package: Ripgrep)
+    keymap.set("n", "<leader>fc", ":Telescope grep_string<CR>", { desc = "Find string under cursor in cwd" }) -- Find string under cursor in cwd (Requires system package: Ripgrep)
   end,
 }
