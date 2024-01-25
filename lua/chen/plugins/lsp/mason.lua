@@ -23,9 +23,7 @@ return {
       ensure_installed = {
         "pylsp",
         "lua_ls",
-        "marksman",
-        "taplo",
-        "hydra_lsp"
+        "marksman"
       },
 
       -- Auto-install confiured servers (with lspconfig)
