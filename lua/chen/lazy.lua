@@ -13,6 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   {import = "chen.plugins"},
+  {import = "chen.plugins.lsp"},
 }, {
   install = {
     colorscheme = { "tokyonight-night" }, -- Use prefered colorscheme when auto installing plugins
