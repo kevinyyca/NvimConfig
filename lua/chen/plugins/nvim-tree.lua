@@ -6,6 +6,8 @@ return {
   keys = {
     { "<leader>ee", ":NvimTreeToggle<CR>" },
     { "<leader>ef", ":NvimTreeFindFileToggle<CR>" },
+    { "<leader>ec", ":NvimTreeCollapse<CR>" },
+    { "<leader>er", ":NvimTreeRefresh<CR>" }
   },
   config = function()
     local nvimtree = require("nvim-tree")
