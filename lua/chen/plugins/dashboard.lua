@@ -8,7 +8,9 @@ return {
 
   config = function()
     local dashboard = require("dashboard")
-    dashboard.setup()
+    dashboard.setup({
+      theme = 'doom',
+    })
 
     vim.g.dashboard_default_executive = "telescope"
   end,
