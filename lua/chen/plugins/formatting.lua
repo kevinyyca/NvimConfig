@@ -7,6 +7,8 @@ return {
     conform.setup({
       formatters_by_ft = {
         markdown = { "prettier" },
+        json = { "prettier" },
+        yaml = { "prettier" },
         lua = { "stylua" },
         python = { "isort", "black" }
       },
@@ -23,6 +25,6 @@ return {
         async = false,
         timeout_ms = 500
       })
-    end, { desc = "Format file or range (in visual mode)" })
+    end, { desc = "Format file or range (In visual mode)" })
   end
 }
