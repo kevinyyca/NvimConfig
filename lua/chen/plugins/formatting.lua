@@ -9,6 +9,7 @@ return {
         markdown = { "prettier" },
         json = { "prettier" },
         yaml = { "prettier" },
+        toml = { "prettier" },
         lua = { "stylua" },
         python = { "isort", "black" }
       },
