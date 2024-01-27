@@ -22,12 +22,21 @@ return {
           [[                                                       ]]
         },
         center = {
+          -- Recently opened files
           {
-            icon = ' ',
-            desc = 'Recently opened files',
-            key = 'a',
-            key_format = ' [%s]',
-            action = 'Telescope oldfiles',
+            icon = " ",
+            desc = "Recently opened files",
+            key = "a",
+            key_format = " [%s]",
+            action = "Telescope oldfiles",
+          },
+          -- Find file
+          {
+            icon = " ",
+            desc = "Find file",
+            key = "b",
+            key_format = " [%s]",
+            action = "Telescope find_files"
           }
         }
       }
