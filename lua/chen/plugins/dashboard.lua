@@ -20,6 +20,15 @@ return {
           [[ ╚═╝  ╚═══╝ ╚══════╝ ╚═════╝    ╚═══╝   ╚═╝ ╚═╝     ╚═╝]],
           [[                                                       ]],
           [[                                                       ]]
+        },
+        center = {
+          {
+            icon = ' ',
+            desc = 'Recently opened files',
+            key = 'a',
+            key_format = ' [%s]',
+            action = 'Telescope oldfiles',
+          }
         }
       }
     })
