@@ -2,7 +2,6 @@ return {
   "nvimdev/dashboard-nvim",
   dependencies = {
     "nvim-tree/nvim-web-devicons",
-    "nvim-telescope/telescope.nvim"
   },
   event = "VimEnter",
 
@@ -18,11 +17,11 @@ return {
           [[ ██╔██╗ ██║ █████╗  ██║   ██║ ██║   ██║ ██║ ██╔████╔██║]],
           [[ ██║╚██╗██║ ██╔══╝  ██║   ██║ ╚██╗ ██╔╝ ██║ ██║╚██╔╝██║]],
           [[ ██║ ╚████║ ███████╗╚██████╔╝  ╚████╔╝  ██║ ██║ ╚═╝ ██║]],
-          [[ ╚═╝  ╚═══╝ ╚══════╝ ╚═════╝    ╚═══╝   ╚═╝ ╚═╝     ╚═╝]]
+          [[ ╚═╝  ╚═══╝ ╚══════╝ ╚═════╝    ╚═══╝   ╚═╝ ╚═╝     ╚═╝]],
+          [[                                                       ]],
+          [[                                                       ]]
         }
       }
     })
-
-    vim.g.dashboard_default_executive = "telescope"
   end,
 }
