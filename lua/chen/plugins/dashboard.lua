@@ -37,6 +37,14 @@ return {
             key = "b",
             key_format = " [%s]",
             action = "Telescope find_files"
+          },
+          -- File browser
+          {
+            icon = " ",
+            desc = "File browser",
+            key = "d",
+            key_format = " [%s]",
+            action = "NvimTreeToggle"
           }
         }
       }
