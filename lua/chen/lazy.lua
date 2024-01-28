@@ -12,8 +12,8 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-  {import = "chen.plugins"},
-  {import = "chen.plugins.lsp"},
+  { import = "chen.plugins" },
+  { import = "chen.plugins.lsp" },
 }, {
   install = {
     colorscheme = { "tokyonight-night" }, -- Use prefered colorscheme when auto installing plugins
@@ -26,3 +26,8 @@ require("lazy").setup({
     notify = false,
   },
 })
+
+-- Keymaps
+local keymap = vim.keymap
+
+keymap.set("n", "<leader>ul", ":Lazy<CR>", { desc = "Open Lazy UI" }) -- Open Lazy UI
