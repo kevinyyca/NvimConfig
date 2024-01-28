@@ -4,7 +4,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
   },
   config = function()
-    local mason = require("mason") -- Import Mason
+    local mason = require("mason")                     -- Import Mason
     local mason_lspconfig = require("mason-lspconfig") -- Import Mason-lspconfig
 
     -- Enable Mason and configure icons
@@ -29,5 +29,10 @@ return {
       -- Auto-install confiured servers (with lspconfig)
       automatic_installation = true, -- Not the same as ensure_installed
     })
+
+    -- Keymaps
+    local Keymap = vim.keymap
+
+    Keymap.set("n", "<leader>um", ":Mason<CR>", { desc = "Open Mason UI" })
   end,
 }
