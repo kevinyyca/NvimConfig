@@ -1,3 +1,4 @@
+local newfile = "lua vim.ui.input({prompt = 'Enter new file name: '}, function(input) local status, result = pcall(function() vim.cmd('edit ' .. input) end) if not status then print('Cancelled') end end)"
 return {
   "nvimdev/dashboard-nvim",
   dependencies = {
@@ -46,11 +47,19 @@ return {
             key_format = " [%s]",
             action = "NvimTreeToggle"
           },
+          -- Open new file
+          {
+            icon = " ",
+            desc = "Open new file",
+            key = "e",
+            key_format = " [%s]",
+            action = newfile
+          },
           -- Lazy UI
           {
             icon = " ",
             desc = "Open Lazy UI",
-            key = "e",
+            key = "f",
             key_format = " [%s]",
             action = "Lazy"
           }
