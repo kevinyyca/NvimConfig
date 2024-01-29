@@ -14,3 +14,6 @@
 ## What this configuration doesn't have
 - 📊 formatting
 - 📊 Linting
+
+This configuration is based on [Josean Martinez's](https://github.com/josean-dev) configuration.
+Some of this was copied from his repository [dev-environment-files](https://github.com/josean-dev/dev-environment-files)
