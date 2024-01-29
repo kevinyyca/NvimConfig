@@ -1,5 +1,5 @@
 <h1 align="center">My Neovim configuration</h1>
-This configuration using [Lazy.nvim](https://github.com/folke/lazy.nvim)
+This configuration uses [Lazy](https://github.com/folke/lazy.nvim)
 
 # What this configuration has
 - The [Tokyonight colorscheme](https://github.com/folke/tokyonight.nvim)
