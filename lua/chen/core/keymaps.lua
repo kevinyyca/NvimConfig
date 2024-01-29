@@ -24,3 +24,6 @@ keymap.set("n", "<leader>tp", ":tabp<CR>", { desc = "Go to previous tab" }) -- G
 keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" }) -- Exit insert mode with jk
 keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" }) -- Clear search highlights
 keymap.set("n", "x", '"_x')
+
+keymap.set("n", "fw", ":w<CR>", { desc = "Save the buffer"} ) -- Save the buffer
+keymap.set("n", "fq", ":wq<CR>", { desc = "Save the buffer and quit"} ) -- Save the buffer and quit
