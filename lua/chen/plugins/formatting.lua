@@ -10,7 +10,6 @@ return {
         json = { "prettier" },
         yaml = { "prettier" },
         toml = { "prettier" },
-        lua = { "stylua" },
         python = { "isort", "black" }
       },
       format_on_save = {
