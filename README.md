@@ -1,1 +1,1 @@
-<p style="text-align: center;">Neovim config</p>
+<h1 align="center">My Neovim configuration</h1>
