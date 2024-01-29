@@ -45,6 +45,14 @@ return {
             key = "d",
             key_format = " [%s]",
             action = "NvimTreeToggle"
+          },
+          -- Lazy UI
+          {
+            icon = " ",
+            desc = "Open Lazy UI",
+            key = "e",
+            key_format = " [%s]",
+            action = "Lazy"
           }
         }
       }
