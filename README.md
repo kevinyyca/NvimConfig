@@ -12,7 +12,6 @@
 - ⬜ [Vim-maximizer](https://github.com/szw/vim-maximizer) maximize split windows
 
 ## What this configuration doesn't have
-- 📊 formatting
 - 📊 Linting
 
 This configuration is based on [Josean Martinez's](https://github.com/josean-dev) configuration.
