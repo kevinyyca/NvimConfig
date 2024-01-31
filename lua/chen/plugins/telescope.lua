@@ -22,7 +22,9 @@ return {
       },
     })
 
+    -- Load extensions
     telescope.load_extension("fzf")
+    telescope.load_extension("noice")
 
     -- Keymaps
     local keymap = vim.keymap
