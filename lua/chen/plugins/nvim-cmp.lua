@@ -8,6 +8,7 @@ return {
     "saadparwaiz1/cmp_luasnip", -- For autocompletion
     "rafamadriz/friendly-snippets", -- Useful snippets
     "onsails/lspkind.nvim", -- VSCode like pictograms
+    "hrsh7th/cmp-cmdline" -- Autocomplete in command mode
   },
   config = function()
     local cmp = require("cmp")
@@ -37,10 +38,11 @@ return {
       }),
       -- Sources for autocompletion
       sources = cmp.config.sources({
+        { name = "cmpline" },
         { name = "nvim_lsp" },
         { name = "luasnip" }, -- Snippets
         { name = "buffer" }, -- Text within current buffer
-        { name = "path" }, -- File system paths
+        { name = "path" } -- File system paths
       }),
       -- Configure lspkind for VSCode like pictograms in completion menu
       formatting = {
