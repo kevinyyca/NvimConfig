@@ -55,11 +55,19 @@ return {
             key_format = " [%s]",
             action = newfile
           },
+          -- Change colorscheme
+          {
+            icon = " ",
+            desc = "Change colorscheme",
+            key = "f",
+            key_format = " [%s]",
+            action = "Telescope colorscheme"
+          },
           -- Lazy UI
           {
             icon = " ",
             desc = "Open Lazy UI",
-            key = "f",
+            key = "g",
             key_format = " [%s]",
             action = "Lazy"
           }
