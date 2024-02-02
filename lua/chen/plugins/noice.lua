@@ -1,6 +1,6 @@
 return {
   "folke/noice.nvim",
-  keys = ":",
+  event = "CmdlineEnter",
   dependencies = {
     "MunifTanjim/nui.nvim",
     "rcarriga/nvim-notify"
