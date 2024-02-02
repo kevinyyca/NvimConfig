@@ -7,6 +7,7 @@ return {
   },
   config = function()
     local noice = require("noice")
+    vim.cmd([[Lazy load nvim-lspconfig]])
 
     noice.setup() -- Configure Noice
 
