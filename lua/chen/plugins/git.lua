@@ -1,6 +1,7 @@
 return {
   {
     "tpope/vim-fugitive",
+    keys = { "<leader>gc" },
     config = function()
       -- Keymaps
       local keymap = vim.keymap
@@ -10,6 +11,10 @@ return {
   },
   {
   "lewis6991/gitsigns.nvim",
+  keys = {
+    "<leader>gp",
+    "<leader>gb"
+  },
   config = function()
     local gitsigns = require("gitsigns")
     gitsigns.setup()
