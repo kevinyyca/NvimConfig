@@ -25,6 +25,7 @@ return {
           "markdown_inline",
           "bash",
           "lua",
+          "vimdoc",
           "vim",
           "dockerfile",
           "gitignore"
