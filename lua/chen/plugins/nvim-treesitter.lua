@@ -27,6 +27,7 @@ return {
           "lua",
           "vimdoc",
           "vim",
+          "regex",
           "dockerfile",
           "gitignore"
         },
