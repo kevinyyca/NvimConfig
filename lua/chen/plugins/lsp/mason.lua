@@ -3,6 +3,7 @@ return {
   dependencies = {
     "williamboman/mason-lspconfig.nvim",
   },
+  event = { "BufReadPre", "BufNewFile" },
   config = function()
     local mason = require("mason")                     -- Import Mason
     local mason_lspconfig = require("mason-lspconfig") -- Import Mason-lspconfig
