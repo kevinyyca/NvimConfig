@@ -29,7 +29,10 @@ return {
             desc = "Recently opened files",
             key = "a",
             key_format = " [%s]",
-            action = "Telescope oldfiles",
+            action = function()
+              vim.cmd([[Lazy load telescope.nvim]]) -- Load Telescope
+              vim.cmd([[Telescope oldfiles]])
+            end
           },
           -- Find file
           {
@@ -37,7 +40,10 @@ return {
             desc = "Find file",
             key = "b",
             key_format = " [%s]",
-            action = "Telescope find_files"
+            action = function()
+              vim.cmd([[Lazy load telescope.nvim]]) -- Load Telescope
+              vim.cmd([[Telescope find_files]])
+            end
           },
           -- File browser
           {
@@ -61,7 +67,10 @@ return {
             desc = "Change colorscheme",
             key = "f",
             key_format = " [%s]",
-            action = "Telescope colorscheme"
+            action = function()
+              vim.cmd([[Lazy load telescope.nvim]]) -- Load Telescope
+              vim.cmd([[Telescope colorscheme]])
+            end
           },
           -- Lazy UI
           {
