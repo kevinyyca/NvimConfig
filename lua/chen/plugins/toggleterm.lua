@@ -1,9 +1,9 @@
 return {
   "akinsho/toggleterm.nvim",
   keys = {
-    { "<leader>th", ":ToggleTerm direction=horizontal<CR>" },
-    { "<leader>tf", ":ToggleTerm direction=float<CR>" },
-    { "<leader>tt", ":lua _btop_toggle()<CR>"}
+    "<leader>th",
+    "<leader>tf",
+    "<leader>tt"
   },
   config = function()
     local toggleterm = require("toggleterm")
