@@ -2,6 +2,7 @@
 
 # 🔒 ARCHIVING?
 This repository may be archived soon. These config files will be moved over to a new repository [Dotfiles](https://github.com/kevinyyca/dotfiles)
+After this repository has been archived it will be DELETED
 
 `This configuration is OUTDATED`
 ## What this configuration has
